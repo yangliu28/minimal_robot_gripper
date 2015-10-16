@@ -6,11 +6,17 @@ The folder ps5_yxl1450 is the package that can be compiled in ROS environment. M
 
 
 To get program running, first compile it using catkin_make in your ros workspace. Then running these scripts in seperate terminals:
+
   $ roscore
+  
   $ rosrun gazebo_ros gazebo
+  
   $ rosrun gazebo_ros spawn_model -file gripper_robot.urdf -urdf -model gripper_robot (in the urdf directory)
+  
   $ rosrun ps5_yxl1450 gripper_robot_controller
+  
   $ rosrun ps5_yxl1450 gripper_robot_trajectory_action_server
+  
   $ rosrun ps5_yxl1450 gripper_robot_trajectory_action_client
 
 
