@@ -1,0 +1,8 @@
+#goal definition
+trajectory_msgs/JointTrajectory trajectory
+---
+#result definition
+bool rtn_status
+---
+#feedback
+int32 fdbk
