@@ -22,3 +22,4 @@ To get program running, first compile it using catkin_make in your ros workspace
 
 As the video demonstrate, you can play with the beer or table to see how the capability of a simple robot gripper. However the beer is weirdly behaved because the gravity has been set to -0.1m/s^2 for a better control of robot joints. You can play with those parameters also. More detailed description can be found in the pdf file "ps5_writeup_yxl1450.pdf".
 
+The video has been uploaded to Youtube: [https://youtu.be/uPjAnxeLxwU](https://youtu.be/uPjAnxeLxwU)
