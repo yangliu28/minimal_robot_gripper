@@ -141,6 +141,10 @@ add_executable(gripper_robot_trajectory_action_client src/gripper_robot_trajecto
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(ps5_yxl1450_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(gripper_robot_controller ps5_yxl1450_gencpp)
+add_dependencies(gripper_robot_kpkv_serviceClient ps5_yxl1450_gencpp)
+add_dependencies(gripper_robot_trajectory_action_server ps5_yxl1450_gencpp)
+add_dependencies(gripper_robot_trajectory_action_client ps5_yxl1450_gencpp)
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(ps5_yxl1450_node
